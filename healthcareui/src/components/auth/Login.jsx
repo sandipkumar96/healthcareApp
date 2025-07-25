@@ -1,8 +1,7 @@
 import React from "react";
 import { loginAction } from "../../actions/loginAction";
-
+import "./Login.css";
 function Login() {
-  console.log("lp");
   const handleSubmit = (event) => {
     event.preventDefault();
     let form = event.target;

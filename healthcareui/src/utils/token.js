@@ -11,6 +11,5 @@ export const setToken = (token) => {
 export const getToken = () => {
   const token = Cookies.get("jwtoken");
   if (token) return token;
-
   return false;
 };
